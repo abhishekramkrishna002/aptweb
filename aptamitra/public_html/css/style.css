@@ -1,0 +1,208 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Aug, 2015, 7:06:51 PM
+    Author     : abhishek
+*/
+
+body{
+    margin:auto;
+    max-width: 1920px;
+    background-color: #db4920;
+}
+
+/*
+* header css:start
+*/
+#header 
+{
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.3em;
+    background-color: #ffffff;
+    font-family: 'PT Sans Narrow';
+    font-weight: bold;
+    box-shadow: 0px 10px 25px #581e0d;
+
+}
+#logo_container
+{
+    width: 30%;
+    text-align:center; 
+}
+#nav_container
+{
+    width: 70%;
+    text-align:right; 
+}
+#logo
+{
+    width:90%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+}
+table { border-collapse:collapse }        
+
+/*
+* header css:end
+*/
+
+
+/*
+*debugging ::start
+*/
+
+/*            #header 
+            {
+                border-style: solid;
+                border-color: red;
+            }*/
+
+/*            #header,table, th, td {
+                border: 1px solid black;
+            }*/
+.main_container 
+{
+    /*                border-style: solid;
+                    border-color: green;*/
+    width: 100%;
+    background-image: url(images/shadows.png);
+    background-repeat: no-repeat
+
+}
+.left_main_container 
+{
+    /*                border-style: solid;
+                    border-color: green;*/
+    width: 55%;
+    text-align: center;
+}
+.right_main_container 
+{
+    /*                border-style: solid;
+                    border-color: green;*/
+    width: 45%;
+    text-align: center;
+
+
+}
+.right_main_container > img 
+{
+    width: 50%;
+
+}
+.banner_header
+{
+    font-family: 'PT Sans Narrow';
+    color: white;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+.white_box
+{
+    background-color: #fff;
+    width: 65%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.white_box_header
+{
+    font-family: 'PT Sans Narrow';
+    color: black;
+    font-size: 2em;
+    text-transform: initial;
+    width: 100%; 
+    /*                border-style: solid;
+                    border-color: green;*/
+    text-align: left;
+    padding-left  : 20px;
+}
+.white_box_sub_header
+{
+    font-family: 'PT Sans Narrow';
+    color: #db4920;
+    font-size: 1.3em;
+    text-transform: initial;
+    width: 100%; 
+    /*                border-style: solid;
+                    border-color: green;*/
+    text-align: left;
+    padding-left  : 20px;
+}
+.white_box_button_container
+{
+    width: 100%; 
+    /*                border-style: solid;
+                    border-color: green;*/
+    text-align: left;
+    padding  : 10px 20px;
+}
+.playstore
+{
+    width: 20%;
+    margin-top: 2.5% ;
+}
+.underline_text {
+    border-bottom: solid 1px #c6c6c6;
+    display: inline;
+}
+footer{
+    display: block;
+    background-color: #434343;
+    color: #c6c6c6;
+    font-family: 'PT Sans Narrow';
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.right_container_fooler_text
+{
+    color:white;
+    font-size: 18px;
+    font-family: 'PT Sans Narrow';
+}
+
+input[type=text] {
+    width: 40%;
+    border-radius: 5px;
+    background-color: #fab001;
+    border: 1px solid #fff;
+    padding: 6px;
+    margin-right: 5px;
+}
+input[type=submit] {
+    width: 20%;
+    border-radius: 5px;
+    background-color: #434343;
+    border: 1px solid #fff;
+    padding: 6px;
+    color: #fff;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+    text-align: center;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+    text-align: center;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+    text-align: center;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #fff;
+    text-align: center;
+}
+/*
+*debugging ::end
+*/
